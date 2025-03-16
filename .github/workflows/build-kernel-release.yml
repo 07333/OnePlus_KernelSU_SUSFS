@@ -20,8 +20,8 @@ jobs:
   build-kernel-op11r:
     uses: ./.github/workflows/op11r.yml
     secrets: inherit
-  build-kernel-op12:
-    uses: ./.github/workflows/op12.yml
+  build-kernel-ace3p:
+    uses: ./.github/workflows/ace3p.yml
     secrets: inherit
   build-kernel-op13r:
     uses: ./.github/workflows/op13r.yml
@@ -47,7 +47,7 @@ jobs:
     needs:
         - build-kernel-op11
         - build-kernel-op11r
-        - build-kernel-op12
+        - build-kernel-ace3p
         - build-kernel-op13r
         - build-kernel-opnord4
         - build-kernel-opopen

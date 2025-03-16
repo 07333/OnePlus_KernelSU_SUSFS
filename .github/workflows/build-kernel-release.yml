@@ -67,10 +67,10 @@ jobs:
         -> https://github.com/sidex15/ksu_module_susfs
         
         Non-Official Managers:
-        -> https://github.com/KernelSU-Next/KernelSU-Next
+        -> https://github.com/5ec1cff/KernelSU
         
         Features:
-        [+] KernelSU-Next
+        [+] M-KernelSU
         [+] SUSFS v1.5.5
         [+] Wireguard Support
         [+] Maphide LineageOS Detections
